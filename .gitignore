@@ -1,2 +1,5 @@
-# Ignore notes
+# Ignore /notes dir
 /notes
+
+# Ignore wave files
+*.wav
