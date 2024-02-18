@@ -1,4 +1,7 @@
+# gpu_check.py
 import torch
 
-print(torch.cuda.is_available())
-print(torch.zeros(1).cuda())
+if torch.cuda.is_available():
+    print("CUDA is available. GPU: ", torch.cuda.get_device_name(0))
+else:
+    print("CUDA is not available.")
