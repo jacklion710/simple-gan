@@ -3,3 +3,6 @@
 
 # Ignore wave files
 *.wav
+
+# Ignore python caching
+__pycache__
