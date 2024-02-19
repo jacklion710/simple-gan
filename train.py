@@ -5,7 +5,7 @@ import torch.optim as optim
 from modules.discriminator import Discriminator
 from modules.generator import Generator
 from torch.utils.data import DataLoader
-from data.audio_dataset import AudioDataset
+from modules.AudioDataset import AudioDataset
 
 # Parameters (you might need to adjust these)
 noise_dim = 100
@@ -26,7 +26,7 @@ optimizer_generator = optim.Adam(generator.parameters(), lr=learning_rate)
 criterion = nn.BCELoss()
 
 # Load data
-dataset = AudioDataset()  # Implement dataset loading here
+dataset = AudioDataset(directory='data/train')
 dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
 
 # Training loop
