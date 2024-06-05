@@ -124,6 +124,6 @@ The 'AudioDataset' class in `AudioDataset.py` handles loading and preprocessing 
 
 For background information on GANs and their applications in audio generation, [this article](https://realpython.com/generative-adversarial-networks/) provides a comprehensive introduction.
 
-### Contributing
+## Contributing
 
 If you'd like to contribute, please fork the repository and open a pull request to the `main` branch.
