@@ -1,6 +1,10 @@
 # Simple-GAN for Audio Generation
 
-This project demonstrates the implementation of a Generative Adversarial Network (GAN) for generating audio samples. It utilizes PyTorch, a powerful library for deep learning, to train both generator and discriminator models capable of producing and evaluating audio data, respectively.
+This GAN demonstrates the implementation of a Generative Adversarial Network (GAN) for generating audio samples. It utilizes PyTorch, a powerful library for deep learning, to train both generator and discriminator models capable of producing and evaluating audio data, respectively.
+
+## Why
+
+I wanted to generate novel drum samples for producing music. Synths will often feature a randomization feature for obtaining unexpected results. Using deep learning to randomly generate new sounds may be inspiring and useful for music creation.
 
 ## Environment Setup
 
@@ -119,3 +123,7 @@ The 'AudioDataset' class in `AudioDataset.py` handles loading and preprocessing 
 ## Additional Resources
 
 For background information on GANs and their applications in audio generation, [this article](https://realpython.com/generative-adversarial-networks/) provides a comprehensive introduction.
+
+### Submit a pull request
+
+If you'd like to contribute, please fork the repository and open a pull request to the `main` branch.
